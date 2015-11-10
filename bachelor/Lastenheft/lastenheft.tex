@@ -1,8 +1,8 @@
 \documentclass{article}
 \usepackage{prerex}
 \usepackage{parselines}
-%\usepackage{blindtext}
-%\usepackage[utf8]{inputenc}
+\usepackage{array}
+
 \smash{\Huge}
 
 \date{10.11.2015}
@@ -13,54 +13,90 @@
 
 \subsection{Why this project and how did this idea develope?}
 
-Wikidata is notoriously underused and urgently needs a user-interface that will allow all kinds of users to integrate Wikidata into their wikiscript. 
+Wikidata is notoriously underused and urgently needs a user-interface that will allow all kinds of users to integrate Wikidata into their wikiscript. This will be an important step use Wikidata to it's full potential.
 
 \subsection{How was the problem resolved in the past?}
 
+Currently the only way to edit the data from a client is a 'hack'. There is no good actual clean way to do this which is why it is so underused. 
+
 \subsection{Why is there need for action?}
 
+Because currently it by far isn't being used to the extent it was intendet to and because the community is unhappy with the way it is currently usable which is basically no way.
+
 \subsection{Rough desired course of action?}
+
+Determine, through user-centered design, a user-interface which will allow for editing from a client. 
 
 
 \section{Objective}
 
 \subsection{What should be achieved in the end?}
 
+Improving the client editing experience and actually making it possible from the client directly.
+
 \subsection{On what can the success be measured?}
+
+Increase in number of infoboxes filled with data from wikidata on wikipedia.
 
 \subsection{What has to happen so the solution can be realised?}
 
+My thesis.
 
 \section{Operational environment}
 
 \subsection{Under which circumstances will the product be used?}
 
+Anytime an editor wants to change or add or remove information from the infobox in Wikidata.
+
+\newpage
 
 \section{Functional requirements}
 
 \subsection{Which functions must exist?}
-\subsubsection{Needs to be seperated into MUST, SHOULD, and COULD}
- 
+
+
+%\iffalse
+\begin{tabular}{| >{\raggedright\arraybackslash}p{4cm} | >{\raggedright\arraybackslash}p{4cm} | >{\raggedright\arraybackslash}p{4cm} |}
+\hline
+MUST & SHOULD & COULD  \\ \hline
+can not fascilitate vandalism & don't allow to change labels remotely & two different types of lookup \\ \hline
+sense of ownership with the community & little info floating boxes & infobox should display all statements \\ \hline
+notice when infobox not from wikidata and suggest & FILL & preview how those changes would look \\ \hline
+suggest properties when adding or editing & FILL & templates for common things \\ \hline
+locality. the user must know where the edit is taking place & FILL & notice when no infobox and suggest adding \\
+\hline
+\end{tabular}
+%\fi
+
 \subsection{Define the target group}
 \subsubsection{Personas}
 
+Currently in a doc. Needs to be transfered.
+
 \subsection{What is the product supposed to achieve and be able to do?}
 
- 
+See table for now.
+
 \section{Non-functional requirements}
 
 \subsection{Should the product be extendable?}
 
+Yes. It should be so each local wiki can add or alter the appearence and certain parts of the functions. maybe even editors can customise it a bit?
+
 \subsection{Should alterations be possible?}
+
+Yes.
 
 \subsection{What are the usability requirements?}
 
+This still needs to be determined.
 
 \section{Interfaces}
 
 \subsection{Explanations (H-C, C-C...)}
 
- 
+Visual editor. The normal editor.
+
 \section{Quality requirements}
 
 \subsection{Which quality characteristics should be fullfilled?}
