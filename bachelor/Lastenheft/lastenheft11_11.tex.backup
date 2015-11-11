@@ -42,14 +42,13 @@ Increase in number of infoboxes filled with data from wikidata on wikipedia.
 
 My thesis.
 
-\pagebreak
-
 \section{Operational environment}
 
 \subsection{Under which circumstances will the product be used?}
 
 Anytime an editor wants to change or add or remove information from the infobox in Wikidata.
 
+\newpage
 
 \subsection{Define the target group}
 \subsubsection{Personas}
@@ -62,14 +61,15 @@ See table for now.
 
 \section{Non-functional requirements}
 
+\begin{itemize}
+ \item vandalism should be surpressed
+ \item locality (user must know where he is editing)
+ \item sense of ownership for the WD community
+ \item entry barrier must be lowered
+ \item user must know what he is doing and what consequences it'll have
 
-\begin{tabular}{| >{\raggedright\arraybackslash}p{4cm} | >{\raggedright\arraybackslash}p{4cm} | >{\raggedright\arraybackslash}p{4cm} |}
-\hline
-\textbf{Wikidata} & \textbf{Wikipedia} & \textbf{Both}  \\ \hline
-vandalism should be surpressed & entry barrier must be lowered & \\ \hline
-trust & locality (user must know where he is editing) & \\ \hline
-user must know what he is doing and what consequences it'll have & sense of ownership & \\ \hline
-\end{tabular}
+\end{itemize}
+
 
 \subsection{Should the product be extendable?}
 
@@ -91,13 +91,13 @@ This still needs to be determined.
 
 %\iffalse
 \begin{tabular}{| >{\raggedright\arraybackslash}p{4cm} | >{\raggedright\arraybackslash}p{4cm} | >{\raggedright\arraybackslash}p{4cm} |}
-  \hline
-  \textbf{MUST} & \textbf{SHOULD} & \textbf{COULD}  \\ \hline
-  preview how changes would look & notice when infobox not from wikidata and suggest & little info floating boxes \\ \hline
-  only show statements that are in the template anyway & labels probably should be editable to reverse vandalism on WD & suggest properties when adding or editing \\ \hline
-  two different input methods & prevew of what the changes would look like & admin maybe has right to disable WD in specific infobox due to complexity and the redirect to WD \\ \hline
-  integrate with visual editor &  & check if the corresponding item blocked for editing \\ \hline
-   &  & WD gets a space in the toolbar with a blinking blue dot \\ \hline
+\hline
+MUST & SHOULD & COULD  \\ \hline
+preview how changes would look & notice when infobox not from wikidata and suggest & little info floating boxes \\ \hline
+only show statements that are in the template anyway & labels probably should be editable to reverse vandalism on WD & suggest properties when adding or editing \\ \hline
+two different input methods &  & admin maybe has right to disable WD in specific infobox due to complexity and the redirect to WD \\ \hline
+integrate with visual editor &  &  \\
+\hline
 \end{tabular}
 %\fi
 
