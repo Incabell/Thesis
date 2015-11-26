@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage{prerex}
+\usepackage{parselines}
+\usepackage{array}
+
+\smash{\Huge}
+
+\date{11.11.2015}
+
+\begin{document}
+
+\section{Sceptic long-time editor - Primary Persona}
+
+\subsection{Demography:}
+\begin{itemize}
+ \item female
+ \item 36 years old
+ \item lives in Heidelberg, Germany
+ \item married
+ \item studied veterinary madicine Uni Heidelberg
+ \item lives in a single apartment in quite neighborhood
+ \item works as a veterianrian at Uniklinik Heidelberg
+ \item has two dogs
+ \item apartment in city center
+\end{itemize}
+
+\subsection{Behaviors:}
+\begin{itemize}
+\item calm personality
+\item very assertive
+\item very sociable
+\item pragmatic/ goal oriented
+\item helper personality
+\item spends a lot of time in forums answering users questions
+\end{itemize}
+
+\subsection{Needs and Goals:}
+\begin{itemize}
+ \item protecting animals
+ \item spread awareness
+ \item likes the feeling to be needed and help
+ \item would like more regular working hours
+ \item worries that her marriage might fall apart
+ \item scared of failing at her job and thus hurting someone
+\end{itemize}
+
+\pagebreak
+
+https://www.wikidata.org/wiki/User:fillWithUsername
+\begin{quote}
+"Fill with quote"
+\end{quote}
+
+Miriam is 36 year old veterinarian working at the University clinic of Heidelberg.
+
+\end{document}

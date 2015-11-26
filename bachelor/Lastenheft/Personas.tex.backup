@@ -16,25 +16,31 @@ Who are my users?:
 \item 2 szenarien pro persona
 \end{itemize}
 
-\section{Persona 1: hard to convince user}
+\section{Persona 1: sceptic}
 
 \begin{itemize}
-\item Edits somethings
+\item Edits frequently
+\item long time editor
 \item deems a lot of himself 
 \item almost more involved in community stuff
 \item strong opinions
 \item strong personal involvement
 \item very protective
-\item needs to feel in control \ldots
+\item needs to feel in control 
 \end{itemize}
 
 \begin{quote}
 "If you find (how ever) your way from the Wikipedia-Artikel Warszawa to Q270 - then what? If I would like to use the coordinates then what am I supposed to do? clicking on it? - no. edit? - no. Well so what? how? ? - the free encyclopedia that anyone can edit...."
 \end{quote}
 
+\noindent
+Markus - Male - 28 years old -  \\
+Married to Judy for 10 years - they have no kids \\
+likes to go hiking and bird observation \\
+in his free time he likes to edit wikipedia articles and organises editing sessions in his community \\
+he knows of wikidata but has trouble using it \\
 
-
-\section{Persona 2: hard to reach user}
+\section{Persona 2: Highly specialised editor}
 
 \begin{itemize}
 \item hard to reach when reaching out to the community
@@ -42,17 +48,19 @@ Who are my users?:
 \item has a handful of pages that are being maintained rigorously
 \item not very aware of surrounding projects and changes unless personally affected
 \item rather uninterested in changes
-\item not reluctant towards them when useful and intuitive \ldots
+\item not reluctant towards them when useful and intuitive
+\item very protective of his data. needs to know it's safe
+\item wants people to enjoy his data and spread it
 \end{itemize}
 
-\newpage
+\pagebreak
 
-\section{Persona 3: willing user}
+\section{Persona 3: positive long-time editor}
 
 \begin{itemize}
 \item involved in multiple wiki projects
 \item admin/editor on a larger scale
-\item want to see the projects grow and improve \ldots
+\item want to see the projects grow and improve 
 \end{itemize}
 
 https://www.wikidata.org/wiki/User:Montanabw
@@ -68,5 +76,56 @@ in his free time he likes to edit wikipedia articles and organises editing sessi
 he knows of wikidata but has trouble using it \\
 
 After a nice evening enjoying dinner with his wife judy, jeff wants to have a relaxed evening. He doesn't enjoy watching tv much unless there is a specific movie or documentary showing that he knows he will enjoy. He rather spends his spare time expanding free knowledge by editing on his local Wikipedia. He especially loves the almost 35 pages he made by now about birdspecies that are common in his region that he keeps up to date and vandalism free. He is not a programmer so it took him a long time to understand the Wikipedia markup language. But he's been editing for over 8 years so by now he feels very confident when using it. And fortunately since December 2012 he can use the visual editor which makes it much easier for him to maintain his pages. He loves the idea of Wikidata and would love to see the community use it more avidly but he struggles with the usage and thus refers to the old ways where he feels more comfortable. In the community meetups that he organizes there is also no one he can ask for help. 
+
+\section{Persona 4: opportunistic editor}
+
+\begin{itemize}
+ \item edits when there's a trigger
+ \item not a regular editor
+ \item doesn't have specific pages that he looks after
+ \item has little sprints of editing and then big gaps again
+ \item doesn't follow the current changes and developments 
+ \item no high emotional involvement
+ \item willing to accept most changes
+\end{itemize}
+
+\begin{quote}
+ 
+\end{quote}
+
+\section{Persona 5: template creator}
+
+\begin{itemize}
+ \item creates infobox templates
+ \item quite particular in the way he likes things
+ \item would be open to changes though
+\end{itemize}
+
+\section{Persona 6: WD patroler}
+
+\begin{itemize}
+ \item is interested in keeping vandalism down
+ \item only cares about keeping WD vandalism free
+ \item needs to be conviced of the security
+ \item has an overview of changes and such
+\end{itemize}
+
+\section{Persona 7: WD editor}
+
+\begin{itemize}
+ \item wants his data to be used
+ \item but can also block the data from being edited
+ \item has to trust that the editor will work and not vandalise his data
+\end{itemize}
+
+\section{Persona 8: Troll}
+
+\begin{itemize}
+ \item wants to actively harm the projects
+ \item bored
+ \item is not very persistent
+ \item can not be borthered to learn new things
+\end{itemize}
+
 
 \end{document}

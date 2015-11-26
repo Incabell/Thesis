@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage{prerex}
+\usepackage{parselines}
+\usepackage{array}
+
+\smash{\Huge}
+
+\date{11.11.2015}
+
+\begin{document}
+
+\section{Positive long-time editor - Primary Persona}
+
+\subsection{Demography:}
+\begin{itemize}
+ \item male
+ \item 44 years old
+ \item lives in seattle, washington
+ \item married to Tom Cohen
+ \item two daughters: Franscene and Rebecca
+ \item science teacher at local highschool
+ \item speaks english and french
+ \item likes hiking and birdwatching
+ \item organzies editing sessions in his community
+ \item knows Wikidata but has a hard time using it
+\end{itemize}
+
+\subsection{Behaviors:}
+\begin{itemize}
+\item involved in multiple wiki projects
+\item admin/editor on a larger scale
+\item very community oriented
+\item likes to help people
+\item likes to organize things
+\item likes time to himself
+\item fatherly figure
+\end{itemize}
+
+\subsection{Needs and Goals:}
+\begin{itemize}
+ \item want to see the projects grow and improve 
+ \item expanding free knowledge
+ \item help people have acces to free knowledge
+ \item concerned wether he's making a difference
+ \item frustrated about the senseless vandalism 
+ \item fears that Wikipedia will stagnate at some point
+\end{itemize}
+
+https://www.wikidata.org/wiki/User:Montanabw
+\begin{quote}
+"In en-wiki, there is no way any ordinary editor would have the slightest clue when creating an article that wikidata even exists and even less than the slightest clue how to create it. I've been editing nine years, nothing to help me other than talk page chitchat and completely incomprehensible instructions. Wiki markup syntax is complex enough for non-programmers, to go to a different web site and input something is too steep a learning curve for me..."
+\end{quote}
+
+Jeff is 44 years old and works as a science teacher at a highscool mainly teaching biology and chemistry. He has been teaching for almost 20 years and he still enjoys his job. He sometimes worries that the kids nowadays take the access to free knowledge for granted and thus wants to make sure that there will be enough future contributors out there. He runs a monthly open editing session to which he encourages his students to come as well. He has been involved in community work for a long time and is a respected member. He is not the most tech-savy person but that hasn't stopped him from learning the Wiki markup syntax. Fortunately since December 2012 he can use the visual editor which makes it much easier for him to maintain his pages. He loves the idea of Wikidata and would love to see the community use it more avidly but he struggles with the usage and thus refers to the old ways where he feels more comfortable.
+On the weekends he likes to go hiking and do some birdwatching with his husband Tom, and his daughters, Fran and Beccy. When they get home he usually cooks dinner for everyone. He likes to care for his family and make sure that everyone is doing well. He always encourages them to ask questions and makes sure they understand where knowledge comes from. He wants them to uderstand that it is something that has to be maintaine
+
+
+\end{document}
