@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage{prerex}
+\usepackage{parselines}
+\usepackage{array}
+
+\smash{\Huge}
+
+\date{11.11.2015}
+
+\begin{document}
+
+\section{Opportunistic editor - Primary Persona}
+
+\subsection{Demography:}
+\begin{itemize}
+ \item male
+ \item 22 years old
+ \item lives in Leeds, UK
+ \item girlfriend
+ \item studies physics 
+ \item parents support him financially
+ \item freelances a bit on the side doing some minor programming work
+ \item loves to bike
+\end{itemize}
+
+\subsection{Behaviors:}
+\begin{itemize}
+\item doesn't develope emotional attachments easily
+\item relaxed/easy going
+\item very sociable
+\item lives into the day
+\item avoids most confrontation
+\item night owl
+\item hangs out a lot with friends and gf
+\item never hangs on to something for a long period of time
+\end{itemize}
+
+\subsection{Needs and Goals:}
+\begin{itemize}
+ \item explore the world
+ \item do something new all the time
+ \item fears that he will never find somthing that fascinates him enough
+ \item would like to be able to hold on to one thing for long
+ \item worries that he won't finish his studies
+ \item wants more challenges in life
+\end{itemize}
+
+\pagebreak
+
+https://www.wikidata.org/wiki/User:fillWithUsername
+\begin{quote}
+"Fill with quote"
+\end{quote}
+
+Sam is a 22 year old student who 
+
+\end{document}

@@ -1,0 +1,53 @@
+\documentclass{article}
+\usepackage{prerex}
+\usepackage{parselines}
+\usepackage{array}
+
+\smash{\Huge}
+
+\date{02.12.2015}
+
+\begin{document}
+
+\section{WD editor / patroler - Served Persona}
+
+\subsection{Demography:}
+\begin{itemize}
+ \item male
+ \item 33 years old
+ \item lives in Berlin, Germany
+ \item open data journalist
+ \item ADD HOBBY
+\end{itemize}
+
+\subsection{Behaviors:}
+\begin{itemize}
+\item unproblematic personality
+\item usually liked by everyone
+\item enjoys people's companies
+\item likes to try new stuff from time to time
+\item active on all social media channels
+
+\end{itemize}
+
+\subsection{Needs and Goals:}
+\begin{itemize}
+ \item spreading free knowledge
+ \item creating loads of freely accessible data
+ \item keep Wikidata vandalism free
+ \item prefers all online contact over real life situatuations
+ \item Wants WD to be used more avidly  
+ \item Worries that it doesn't get the attantion it deserves
+ \item Believes that Wikidata has the potential to change the future
+\end{itemize}
+
+\pagebreak
+
+https://www.wikidata.org/wiki/User:fillWithUsername
+\begin{quote}
+"Fill with quote"
+\end{quote}
+
+Thorsten is a 33 year old journalist who mostly sticks to himself and only goes out when neccesary. The topic he specialised on is Big Data and open data. He believes that this type of data is the future and it needs to be expanded and made machine readable as soon as possible. This is the reason why he supports Wikidata so strongly. He thinks this might be the most important collection of machine readable data ever. He vigurously edits and patrols the data and always tries to encourage people to use it. He is not always very successful at that because he is a very timid person and has trouble talking to people and often when he does he isn't taken too seriously. He always strives to please everyone and has trouble confronting people about things. That is especially a problem in his business because you need to be quite persistent and memorable to be successfull. That's why he tries to stick to the more online approach. He loves the idea of Wikidata being used in Wikipedia more and integrating the editing functionality into the VisualEditor. The only worry that he has is that it might fascilitate vandalism of the data but he is definitely willing to give it a try if that means that the data will get more use and the knowledge of it's existence will be spread further.
+
+\end{document}
