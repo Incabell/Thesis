@@ -46,13 +46,35 @@
  \item fears that Wikipedia will stagnate at some point
 \end{itemize}
 
+\pagebreak
+
 https://www.wikidata.org/wiki/User:Montanabw
 \begin{quote}
 "In en-wiki, there is no way any ordinary editor would have the slightest clue when creating an article that wikidata even exists and even less than the slightest clue how to create it. I've been editing nine years, nothing to help me other than talk page chitchat and completely incomprehensible instructions. Wiki markup syntax is complex enough for non-programmers, to go to a different web site and input something is too steep a learning curve for me..."
 \end{quote}
 
-Jeff is 44 years old and works as a science teacher at a highscool mainly teaching biology and chemistry. He has been teaching for almost 20 years and he still enjoys his job. He sometimes worries that the kids nowadays take the access to free knowledge for granted and thus wants to make sure that there will be enough future contributors out there. He runs a monthly open editing session to which he encourages his students to come as well. He has been involved in community work for a long time and is a respected member. He is not the most tech-savy person but that hasn't stopped him from learning the Wiki markup syntax. Fortunately since December 2012 he can use the visual editor which makes it much easier for him to maintain his pages. He loves the idea of Wikidata and would love to see the community use it more avidly but he struggles with the usage and thus refers to the old ways where he feels more comfortable.
-On the weekends he likes to go hiking and do some birdwatching with his husband Tom, and his daughters, Fran and Beccy. When they get home he usually cooks dinner for everyone. He likes to care for his family and make sure that everyone is doing well. He always encourages them to ask questions and makes sure they understand where knowledge comes from. He wants them to uderstand that it is something that has to be maintaine
 
+Jeff is 44 years old and works as a science teacher at a highscool mainly teaching biology and chemistry. He has been teaching for almost 20 years and he still enjoys his job. He sometimes worries that the kids nowadays take the access to free knowledge for granted and thus wants to make sure that there will be enough future contributors out there. He runs a monthly open editing session to which he encourages his students to come as well. He has been involved in community work for a long time and is a respected member. He is not the most tech-savy person but that hasn't stopped him from learning the Wiki markup syntax. Fortunately since December 2012 he can use the visual editor which makes it much easier for him to maintain his pages. He loves the idea of Wikidata and would love to see the community use it more avidly but he struggles with the usage and often can't be bothered to find out how to work it from the little instructions he can gather scattered around different pages which results in him refering to the old ways.
+On the weekends he likes to go hiking and do some birdwatching with his husband Tom, and his daughters, Fran and Beccy. When they get home he usually cooks dinner for everyone. He likes to care for his family and make sure that everyone is doing well. He always encourages them to ask questions and makes sure they understand where knowledge comes from. He wants them to uderstand that it is something that has to be maintained and protected. 
 
+\section{User scenario:}
+\subsection{Expectations and desires:}
+\begin{itemize}
+\item keep vandalism low
+\item but also low entry barrier
+\item should be usable with the knowledge he already has
+\item doesn't want too much to change since it took him so long to learn everything
+\item should be instantly doable
+\item should be the same language
+\item showcase the connection with WD
+\item explain what WD is briefly
+\item easily understandable tutorials and explanations should be offered
+\item should clearly differentiate that this is WD data
+\end{itemize}
+
+\subsection{Context Scenario:}
+\begin{enumerate}
+\item Right after having dinner, Jeff decides to do some editing on Wikipedia. He boots up his computer and logs into Wikipedia with his account. There were some new discoveries in ornithology and he would like to adjust the information in the respective articles. A new common ancestor was found and it turns out that there's a whole other new genus now and a new actircle on that genus must be created and the genera of some birst must be adapted. 
+\item Jeff prefers the VisualEditor for editing. He long switched to using Wikidata properties for his articles because it saves him time and trouble. He goes on the article of the bird he wants to edit and clicks on the VisualEditor. It boots and he clicks  He checks if there is already an Item on Wikidata for the new genus and finds out that there isn't. So the first thing he has to do is create a new Item. 
+\end{enumerate}
 \end{document}
