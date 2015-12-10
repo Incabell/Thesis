@@ -52,6 +52,23 @@ https://www.wikidata.org/wiki/User:fillWithUsername
 "Fill with quote"
 \end{quote}
 
-Sam is a 22 year old student who 
+Sam is a 22 year old student who lived in Leeds all his life and is now studying physics at the local university. He loves to take his bike everywhere and since the city is rather small that's usually not a problem. He has always been very uncertain about most things in life and has changed his major twice. He has started playing 4 different music instruments already and always quit after a couple of months. 
+He's in Uni listening to his professor speak about spaghettification in regards to black holes and for once finds it easy to listen to the lecture. After he gets home he checks Wikipedia to read up on it more. He finds that there is no section on the black hole article yet so he decided to edit it. He mistypes his passowrd a couple of times because he hasn't logged in in such a long time. He likes editing but only from time to time and when there's a reason. He can't be bothered with always keeping everything up to date and having to worry about whether the information is still accurate but when he has something to say he enjoys writing it down for everyone to read. He's meeting his girlfriend in 30min at the cinema to watch the new bond movie. After they get home he reads up on the article of the movie and notices that it's missing some crucial information which he then quickly adds. He sometimes worries that he'll never find anything that he loves so much, that he'll stick with it for longer. At least he has been editing on Wikipedia sporadically for a while now. 
+
+\section{User scenario:}
+\subsection{Expectations and desires:}
+\begin{itemize}
+\item intuitive enought o underst<nd after not having used for a long time
+\item what is wikidata
+\item wants not to think just do
+\item doesn't have many other requirements
+\end{itemize}
+
+\subsection{Context Scenario:}
+\begin{enumerate}
+\item In between two appointments Sam wants to quickly edit an infobox of an article. He only has very little time of which he spends 5 minutes remembering his login details. When he goes to edit the information in the visual editor he quickly sees that the value isn't derived from Wikidata. He changes the settings to use the information from Wikidata and the information in the infobox is corrected automatically. 
+\item When he goes to change another mistake he finds that the property's value is already taken from Wikidata but the value is still wrong. From the dropdown he selects that it's a wrong value. He's asked if the value is inherently wrong or was ever right at one point. He picks the first and is aked to type in the correct value. Suggestions are made for him. He picks one but unfortunately doesn't have a reference at hand. Before he seelcts 'ok' he is asked wether he is sure that he wants He selects 'ok' and the value appears in the box.  
+\item
+\end{enumerate}
 
 \end{document}
