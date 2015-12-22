@@ -1,0 +1,30 @@
+\chapter{Requirements Analysis}
+
+\section{Status Quo Analysis}
+
+Creating a concept for an editing tool requires an understanding of the editing process and the capabilites of the system it will be implemented on. This is neccesary in order to develope a feasable and functional tool for most efficient use. 
+
+All the editing work is written in the Wiki markup language called Wikitext. It is a markup language that is then converted by wiki software to HTML. Since 2012 some Wikipedias offer the use of the VisualEditor. This is a GUI which represents the statements of the respective infobox and allows for a selection of statements. The values of the statements are still written in wikitext but th 
+
+The HTW application is written in \textit{PHP} and is largely built upon the \textit{Symfony 2 Framework}, the \textit{Twig} template engine, and the \textit{Doctrine} library to implement an ORM database access. Furthermore, the PHP dependency manager \textit{Composer} is being used to manage various libraries\textemdash including, but not limited to, the ones aforementioned\textemdash and will play an important role during the implementation phase by allowing for an easy way to establish which dependencies need to be met for a successful build. To manage code revisions, the project relies on \textit{Git}, which is widely supported by Continuous Delivery solutions and is suitable to be used as part of the deployment pipeline.
+
+In its current state, the application lacks any kind of test coverage, allowing for code regression to occur easily and new features to be shipped with unidentified issues such as functional requirements not being met and undetected bugs being present in the code base. 
+
+Furthermore, no static code analyses are conducted, making it difficult to pinpoint especially complex and error-prone parts of the code base, possibly increasing the room for regression errors and resulting in higher future costs of change. Moreover, though of lesser importance, the code base is currently not styled according to the standard style guidelines used by Symfony 2 projects. This is problematic, since multiple developers may be using their own set of rules, resulting in an unclean and difficult-to-work-with code base.
+
+Deployments are currently conducted manually for each individual deployment. Rollbacks are not easily possible, as this would require direct changes to the Git commit history and the overall process contains multiple manual steps.
+
+\clearpage
+\section{Functional Requirements}
+
+As the project has been implemented with the use of PHP, the Continuous Delivery solution must be compatible with PHP to ensure that automatic testing can be implemented properly and efficiently. Once a developer pushes new local changes to the repository, a Continuous Integration solution should immediately build and test the latest version by running a set of pre-defined test cases. These tests should cover not only a basic smoke-test to verify the general functionality of the application, but also cover all elementary functions of it. Tests should be easily extendable to allow for future developments to already include tests immediately, as test coverage should either increase or be kept at the same percentage level over time. In other words, future components should be able to easily receive matching tests.
+
+A crucial part of the system will be feedback. The feedback process can be divided into two main use cases with two user groups. The first use case would be limited to the developer user group only: They must receive automated feedback from the Continuous Integration solution\textemdash especially if a build fails\textemdash so that they can react quickly to issues that have newly appeared. 
+
+The second primary use case is reached once a build is past the automated testing stage. It includes two user groups, as it must be possible for manual tests of selected users to be taken into account. This makes it necessary to have an Acceptance testing stage, where end-users can properly test the system, verify if the requirements were met by the developers, provide feedback, and possibly even mark the build as \textit{failed}. This sequence will allow for a very agile approach of developing the software, as developers\textemdash representing the second user group in this case\textemdash are required to act upon the user feedback they received and make changes immediately to reduces the cost of change, as described in section \ref{introduction}.
+
+In order to reduce the chance of human error, as many tasks as possible should be automated. This includes the deployment and additional features related to it, such as rollbacks.
+
+\section{Non-Functional Requirements}
+
+Non-functional requirements for the scope of this project are execution and reaction time constraints. However, within the scope of this thesis, not enough tests and automated analyses will be created in order to have any especially long-running processes. The build process is not expected to take longer than 5 minutes, though this will be a concern in the future, as the test suite will grow and possibly more ways of analyzing the code statically may be added. Moreover, the Continuous Integration suite should be able to react to new commits within ten minutes, in order to make sure that developers receive feedback as fast as possible.
